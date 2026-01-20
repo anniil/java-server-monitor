@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "com.Anil.App",
+      "projectName": "webserverjava"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-App<webserverjava>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.example.App",
+      "projectName": "webserverjava",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=59846 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=webserverjava"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-App<webserverjava>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.anil.App",
+      "projectName": "webserverjava",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

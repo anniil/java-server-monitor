@@ -1,0 +1,15 @@
+# Compiled files
+target/
+out/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+gi
+# OS
+.DS_Store
+
+# Logs
+*.log
+
