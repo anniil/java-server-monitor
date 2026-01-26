@@ -1,0 +1,13 @@
+# Backend
+target/
+*.class
+
+# Frontend
+node_modules/
+dist/
+.build/
+
+# OS / IDE
+.vscode/
+.idea/
+.DS_Storecd..
